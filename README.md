@@ -3,8 +3,6 @@ service that enables customers to execute arbitrary python code on a cloud serve
 
 # example command to run python script
 curl -X POST -F "file=@/Users/hamzahahmadi/Downloads/test.py" http://localhost:8080/execute
-or simply
-curl -X POST -F "file=@~/Downloads/test.py" http://localhost:8080/execute
 
 # example python script (test.py)
 import numpy as np
